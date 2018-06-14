@@ -2,7 +2,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #7777;
-    background-image: url("../images/playstation-pattern.png")
+    background-image: url("../images/playstation-pattern.png");
+   
 }
 
 .content{
@@ -22,6 +23,10 @@ body{
 header{
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 h1{
@@ -39,6 +44,15 @@ h2{
     float: right;
     margin-top:15px;
 }
+
+a{
+    color: #cccccc;
+    text-decoration: none;
+}
+a:hover{
+    color: #4aaaa5;
+}
+
 #contact {
     padding-left :5px;
     border-left: 1px solid #cccccc;
@@ -58,7 +72,7 @@ h2{
 
 #main-content{
     border: 1px solid #dddddd;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 section{
@@ -83,6 +97,8 @@ section{
 #bio-para{
     line-height: 150%;
     font-weight: 200;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
 }
 
 footer{
@@ -96,5 +112,60 @@ footer{
     text-align: center;
     padding-top:30px;
     padding-bottom:2px;
+}
+
+
+
+form {
+    clear: both;
+    margin: 0 auto;
+}
+.text{
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 8px;
+    color: #777777;
+}
+.submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    margin-top: 8px;
+
+}
+textarea{
+    width:100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-color: #cccccc;
+    margin-top: 8px;
+    
+}
+
+img {
+    width: 250px;
+    height: 150px;
+}
+
+.pic{
+    float: left;
+    position: relative;
+}
+
+h4{
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    box-sizing: border-box;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
 }
 
