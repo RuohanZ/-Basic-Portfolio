@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7777;
+    background-image: url("../images/playstation-pattern.png")
+}
+
+.content{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px;
+    padding:10px;
+    float: left;
+
+    
+}
+
+h2{
+    float: right;
+    margin-top:15px;
+}
+#contact {
+    padding-left :5px;
+    border-left: 1px solid #cccccc;
+}
+
+#portfolio{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #cccccc;
+}
+
+#about{
+    padding-right: 5px;
+}
+
+
+
+#main-content{
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+
+section{
+    margin: 20px;
+}
+#content-head{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px;
+    border-bottom: 2px solid #dddddd;
+    
+
+
+}
+
+#bio-image{
+    width:200px;
+    height:200px;
+    float: left;
+    margin-right: 10px;
+}
+#bio-para{
+    line-height: 150%;
+    font-weight: 200;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    color:#ffffff;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:2px;
+}
+
